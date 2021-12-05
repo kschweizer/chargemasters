@@ -1,0 +1,67 @@
+:root {
+	--primary: #1e3544;
+	--secondary: #df9f15;
+}
+
+.Home {
+	min-height: 100vh;
+	background-color: rgb(206, 188, 165);
+}
+
+.index-MastHead {
+	max-width: 960px;
+	width: 100vw;
+	margin: auto;
+}
+
+.index-Heading {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 3rem;
+	color: var(--primary);
+}
+
+.index-Buttons > a {
+	text-decoration: none;
+	color: var(--primary);
+}
+
+.index-Login {
+	background-color: transparent;
+	margin: 2rem;
+	padding: .5rem 2rem;
+	display: inline-block;
+	border: none;
+	border-bottom: 3px solid transparent;
+	color: var(--primary);
+}
+
+.index-Register {
+	background-color: transparent;
+	padding: .75rem 1.5rem;
+	display: inline-block;
+	border: 1px solid var(--primary);
+	border-radius: 3px; 
+	color: var(--primary);
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.index-Procedures {
+	background-color: transparent;
+	margin-bottom: 10vh;
+	padding: 1rem 2rem;
+	display: inline-block;
+	color: var(--primary);
+	font-size: 1.5rem;
+	text-decoration: underline;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	transition-duration: .3s;
+	cursor: pointer;
+}
+
+.index-Register:hover {
+	background-color: var(--primary);
+	color: white;
+}
+

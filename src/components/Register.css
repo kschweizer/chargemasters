@@ -1,0 +1,97 @@
+.Register {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+	background-color: rgb(206, 188, 165);
+}
+
+.LogoBox {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.LogoBox > a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.Register-Container {
+    width: 360px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: rgb(0, 0, 0, 16%) 3px 6px 6px;
+}
+
+.FormGroup {
+    margin-bottom: 2em;
+}
+
+.FormField {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.InputPretty {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    outline-offset: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.2px solid #cecece;
+    padding-bottom: 5px;
+}
+
+.Register-Button {
+    max-width: 142px;
+    height: 41px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.Login-Button {
+    max-width: 142px;
+    height: 41px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--secondary);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.Register-Link {
+    color: var(--primary);
+}
+
+.Register-Link:hover {
+    color : rgb(71, 121, 124);
+    text-decoration: none;
+}
+
+.Login-ResetBox {
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.Login-ResetLink {
+    color: var(--primary);
+}
+
+.Login-ResetLink:hover {
+    text-decoration: none;
+}
